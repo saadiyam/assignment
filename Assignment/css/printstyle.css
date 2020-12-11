@@ -1,0 +1,13 @@
+/* ============================
+				Print Responsiveness
+   ============================*/
+@media print {
+  header,
+  footer,
+  form {
+    display: none;
+  }
+  @page {
+    margin: 2cm;
+  }
+}
